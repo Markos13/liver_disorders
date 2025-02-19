@@ -17,12 +17,13 @@ from xgboost import XGBClassifier
 from imblearn.ensemble import BalancedBaggingClassifier
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Input
+from pathlib import Path
 import tensorflow as tf
 import random
 
 class ModelTrainer:
-    def __init__(self, data_path, sheet_name):
-        self.df = pd.read_excel(data_path, sheet_name)
+    def __init__(self, data_path):
+        self.df = pd.read_excel(data_path)
         self.X_train = None
         self.X_test = None
         self.y_train = None
@@ -168,6 +169,6 @@ class ModelTrainer:
         self.train_bagging()
 
 
-trainer = ModelTrainer(data_path="C:\\Users\\spano\\Desktop\\ΔΙΠΛΩΜΑΤΙΚΗ\\indian_liver_cleaned.xlsx", sheet_name="Sheet2")
+trainer = ModelTrainer(data_path=Path("indian_liver_cleaned.xlsx"))
 trainer.setup()
 trainer.run_models()
