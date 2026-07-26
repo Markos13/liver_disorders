@@ -1,4 +1,19 @@
-Given a dataset of various patient measurements, the goal is to determine whether a patient has crucial liver disorders (class 2) or non-crucial liver disorders (class 1). Due to class imbalance, after cleaning, preprocessing, and eliminating outliers, we apply the 
-Synthetic Minority Oversampling Technique (SMOTE) to address the imbalance. Next, Principal Component Analysis (PCA) is performed to extract features with low or no contribution to the final outcome of predicting liver disorders.
-The dataset is then split into train and test sets, and eight models are tested: Support Vector Machine, Logistic Regression, K-Nearest Neighbors (KNN), Decision Trees, Naive Bayes, Neural Networks, Bagging, and Boosting Ensembles. These models are evaluated based on
-confusion matrices, ROC curves, and various metrics such as accuracy, F1 score, precision, and recall. The goal is to identify the model that best fits this project.
+Liver Disorder Classification Using Machine Learning
+
+This project develops and evaluates multiple machine learning models to classify patients into critical liver disorder (Class 2) and non-critical liver disorder (Class 1) categories based on clinical measurements.
+
+The workflow follows a complete end-to-end machine learning pipeline:
+
+Data preprocessing: Cleaned the dataset, handled missing values, and removed outliers to improve data quality.
+Class imbalance handling: Applied Synthetic Minority Oversampling Technique (SMOTE) to balance the class distribution and reduce model bias.
+Feature engineering: Used Principal Component Analysis (PCA) to reduce dimensionality and identify the most informative features while minimizing redundant information.
+Model development: Split the dataset into training and testing sets and trained eight supervised learning algorithms:
+Support Vector Machine (SVM)
+Logistic Regression
+K-Nearest Neighbors (KNN)
+Decision Tree
+Naive Bayes
+Neural Network
+Bagging Ensemble
+Boosting Ensemble
+Model evaluation: Compared model performance using confusion matrices, ROC curves, and key classification metrics, including accuracy, precision, recall, and F1-score, to determine the most effective approach for liver disorder prediction.
