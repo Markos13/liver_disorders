@@ -58,9 +58,13 @@ The goal of the project was to identify the machine learning model that provides
 
 ## Results
 
-The performance of all models was evaluated using accuracy, precision, recall, F1-score, confusion matrices, and ROC curves. The results were compared to identify the model that achieved the best balance between correctly identifying patients with liver disorders and minimizing incorrect classifications.
+The performance of all models was evaluated using precision, recall, F1-score, confusion matrices, and ROC curves. The results were compared to identify the model that achieved the best balance between correctly identifying patients with liver disorders and minimizing incorrect classifications.
 
 The best-performing model was selected based on its overall classification performance and ability to generalize to unseen patient data.
+
+The comparison of the eight classification models showed that the **Neural Network** achieved the best overall performance based on precision, recall, F1-score and AUC-ROC curve. The **K-Nearest Neighbors (KNN)** model ranked second, producing results that were close to those of the Neural Network while outperforming the remaining classifiers.
+
+
 
 ![Bagging](images/Bagging.png)
 ![Boosting](images/Boosting.png)
