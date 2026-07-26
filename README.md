@@ -20,4 +20,4 @@ Neural Network
 Bagging Ensemble
 Boosting Ensemble
 
-Model evaluation: Compared model performance using confusion matrices, ROC curves, and key classification metrics, including accuracy, precision, recall, and F1-score, to determine the most effective approach for liver disorder prediction.
+-Model evaluation: Compared model performance using confusion matrices, ROC curves, and key classification metrics, including accuracy, precision, recall, and F1-score, to determine the most effective approach for liver disorder prediction.
