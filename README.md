@@ -62,6 +62,8 @@ The performance of all models was evaluated using accuracy, precision, recall, F
 
 The best-performing model was selected based on its overall classification performance and ability to generalize to unseen patient data.
 
+![Bagging](images/Bagging.png)
+
 ## Conclusion
 
 This project demonstrates the application of a complete machine learning workflow for a healthcare classification problem. By combining data preprocessing, SMOTE for handling class imbalance, PCA for dimensionality reduction, and multiple supervised learning algorithms, the project explores different approaches for improving liver disorder prediction.
