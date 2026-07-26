@@ -64,7 +64,7 @@ The best-performing model was selected based on its overall classification perfo
 
 ![Bagging](images/Bagging.png)
 ![Boosting](images/Boosting.png)
-![Decision_Tree](images/Decision_Tree.png)
+![Desicion_Tree](images/Decision_Tree.png)
 ![KNN](images/KNN.png)
 ![Logistic_Regression](images/Logistic_Regression.png)
 ![Naive_bayes](images/Naive_bayes.png)
