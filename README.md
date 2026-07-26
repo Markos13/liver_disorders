@@ -63,6 +63,13 @@ The performance of all models was evaluated using accuracy, precision, recall, F
 The best-performing model was selected based on its overall classification performance and ability to generalize to unseen patient data.
 
 ![Bagging](images/Bagging.png)
+![Boosting](images/Boosting.png)
+![Decision_Tree](images/Decision_Tree.png)
+![KNN](images/KNN.png)
+![Logistic_Regression](images/Logistic_Regression.png)
+![Naive_bayes](images/Naive_bayes.png)
+![Neural_Network](images/Neural_Network.png)
+![SVM](images/SVM.png)
 
 ## Conclusion
 
