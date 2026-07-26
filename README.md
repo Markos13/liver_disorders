@@ -55,3 +55,15 @@ The goal of the project was to identify the machine learning model that provides
 - Matplotlib
 - SMOTE
 - PCA
+
+## Results
+
+The performance of all models was evaluated using accuracy, precision, recall, F1-score, confusion matrices, and ROC curves. The results were compared to identify the model that achieved the best balance between correctly identifying patients with liver disorders and minimizing incorrect classifications.
+
+The best-performing model was selected based on its overall classification performance and ability to generalize to unseen patient data.
+
+## Conclusion
+
+This project demonstrates the application of a complete machine learning workflow for a healthcare classification problem. By combining data preprocessing, SMOTE for handling class imbalance, PCA for dimensionality reduction, and multiple supervised learning algorithms, the project explores different approaches for improving liver disorder prediction.
+
+The project provided practical experience in building, evaluating, and comparing machine learning models while addressing real-world challenges such as imbalanced datasets and feature selection.
