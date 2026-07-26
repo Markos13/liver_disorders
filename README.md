@@ -65,5 +65,4 @@ The best-performing model was selected based on its overall classification perfo
 ## Conclusion
 
 This project demonstrates the application of a complete machine learning workflow for a healthcare classification problem. By combining data preprocessing, SMOTE for handling class imbalance, PCA for dimensionality reduction, and multiple supervised learning algorithms, the project explores different approaches for improving liver disorder prediction.
-
-The project provided practical experience in building, evaluating, and comparing machine learning models while addressing real-world challenges such as imbalanced datasets and feature selection.
+It provided practical experience in building, evaluating, and comparing machine learning models while addressing real-world challenges such as imbalanced datasets and feature selection.
